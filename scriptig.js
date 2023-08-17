@@ -10,6 +10,7 @@ function setDarkMode() {
       $("h1").addClass("text-dark-mode");
       $("h2").addClass("text-dark-mode");
       $("h3").addClass("text-dark-mode");
+      $("p").addClass("text-dark-mode");
       $("div.alegere").addClass("alegeredk");
       $("div.alegere").removeClass("alegerelight");
       $("div.social-l").addClass("social-d");
@@ -21,6 +22,7 @@ function setDarkMode() {
       $("h1").removeClass("text-dark-mode");
       $("h2").removeClass("text-dark-mode");
       $("h3").removeClass("text-dark-mode");
+      $("p").removeClass("text-dark-mode");
       $("div.alegere").removeClass("alegeredk");
       $("div.alegere").addClass("alegerelight");
       $("div.social-l").removeClass("social-d");
